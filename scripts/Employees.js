@@ -49,7 +49,7 @@ document.addEventListener(
 
             for (const employee of employees) {
                 if (employee.id === parseInt(employeeId)) {
-                let orderCount = "0"
+                let orderCount = ""
                 for (const order of orders) {
                     if (employee.id === order.employeeId) {
                         employeeOrders.push(employee)
